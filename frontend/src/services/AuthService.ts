@@ -13,8 +13,8 @@ import { ApiClient, apiClient } from './ApiClient';
 export class AuthService {
   private apiClient: ApiClient;
 
-  constructor(apiClient: ApiClient) {
-    this.apiClient = apiClient;
+  constructor(client: ApiClient) {
+    this.apiClient = client;
   }
 
   /**

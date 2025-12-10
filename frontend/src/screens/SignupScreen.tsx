@@ -87,7 +87,7 @@ const SignupScreen: React.FC<SignupScreenProps> = ({ navigation }) => {
           Alert.alert('Error', response.message || 'Registration failed');
         }
       }
-    } catch (error) {
+    } catch {
       Alert.alert('Error', 'An unexpected error occurred');
     } finally {
       setLoading(false);
